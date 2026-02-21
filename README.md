@@ -1,61 +1,96 @@
-# Teste Unitário AV1
+```markdown
+# 🧪 Test-Uni
+
+---
 
 ## Descrição
 
-Projeto destinado a práticas e testes relacionados a conceitos de Testes Unitários em desenvolvimento de software. O objetivo principal é aplicar métodos e técnicas para garantir a qualidade do código através de testes automatizados.
+O **Test-Uni** é um projeto voltado para a implementação e prática de testes unitários em diversas linguagens e frameworks, idealizado para auxiliar desenvolvedores a entenderem a importância dos testes automatizados e como aplicá-los de forma eficaz em seus projetos. 
 
-## Funcionalidades Principais
+Dentro do repositório, você encontrará exemplos práticos, códigos de referência e exercícios focados na avaliação e garantia da qualidade do software através de testes bem estruturados.
 
-- Implementação de testes unitários para diferentes módulos/funções.
-- Exemplos práticos para aprendizado e validação de testes.
-- Estrutura didática para facilitar a compreensão dos conceitos de testes automatizados.
+---
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
-- Linguagem de programação: (não especificada no repositório, presumivelmente Java, JavaScript, Python, etc. conforme código fonte informado)
-- Frameworks de teste: (não especificado explicitamente, presumível uso de frameworks comuns como JUnit, Jest, PyTest, etc.)
-- Outras dependências: (não especificadas)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white) 
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) 
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-## Como Instalar e Rodar
+*Obs: Ajuste as tecnologias conforme o conteúdo do repositório.*
+
+---
+
+## Funcionalidades principais
+
+- Exemplos práticos de testes unitários para diferentes linguagens e frameworks  
+- Estrutura organizada para facilitar o estudo e a execução dos testes  
+- Exercícios e casos de avaliação para fixação dos conceitos  
+- Código comentado para melhor entendimento e aprendizado  
+- Configurações prontas para execução dos testes unitários  
+
+---
+
+## Estrutura de pastas
+
+```
+/
+├── Teste-unit-rio-main
+│   └── TestUnitarioAV1
+├── README.md
+```
+
+- **Teste-unit-rio-main/TestUnitarioAV1**: Contém os arquivos e implementações dos testes unitários referentes à avaliação.
+- **README.md**: Documentação do projeto.
+
+---
+
+## Como executar o projeto
 
 1. Clone o repositório:
+
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/H-Saimon/Test-Uni.git
+   cd Test-Uni
    ```
-2. Navegue até o diretório do projeto:
+
+2. Navegue até o diretório do projeto ou da avaliação específica:
+
    ```bash
    cd Teste-unit-rio-main/TestUnitarioAV1
    ```
-3. Instale as dependências necessárias (caso exista um gerenciador de pacotes, como `npm install` ou `pip install`).
-4. Execute os testes conforme o framework utilizado. Exemplos comuns:
-   - Para Java com JUnit:
+
+3. Dependendo da linguagem e ferramenta utilizada, siga os comandos abaixo para rodar os testes:
+
+   - **Java (com JUnit 5)**  
+     Assegure que tenha o Maven ou Gradle configurado e execute:
+
      ```bash
      mvn test
+     # ou
+     gradle test
      ```
-   - Para JavaScript com Jest:
-     ```bash
-     npm test
-     ```
-   - Para Python com PyTest:
+
+   - **Python (se houver testes em Python)**
+
      ```bash
      pytest
      ```
 
-> *Observação:* Como o tipo de tecnologia não foi explicitamente informado, adapte os comandos conforme o ambiente/configuração do seu projeto.
+4. Confira os resultados dos testes no terminal.
 
-## Estrutura do Projeto
-
-```
-Teste-unit-rio-main/
-│
-└───TestUnitarioAV1/
-    ├── Código fonte
-    └── Testes unitários
-```
-
-- `Teste-unit-rio-main/`: Diretório raiz do projeto.
-- `TestUnitarioAV1/`: Contém o código principal e os testes para o exercício AV1 de testes unitários.
+> **Nota:** Verifique os arquivos específicos e dependências para garantir a correta execução dos testes.
 
 ---
 
-Para mais informações e detalhes sobre cada teste, consulte os arquivos e comentários dentro do diretório `TestUnitarioAV1`.
+## Autor
+
+👤 **Hítalon Saimon**  
+[GitHub](https://github.com/H-Saimon) | Desenvolvedor Sênior
+
+---
+
+Se quiser contribuir, abrir issues ou sugerir melhorias, fique à vontade! 🚀  
+Obrigado por visitar o Test-Uni!  
+```
