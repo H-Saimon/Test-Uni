@@ -1,146 +1,117 @@
-# Test-Uni ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Issues](https://img.shields.io/github/issues/username/Test-Uni) ![License](https://img.shields.io/badge/license-MIT-green) ![Language](https://img.shields.io/github/languages/top/username/Test-Uni) ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+# 🧪 Test-Uni
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Issues](https://img.shields.io/github/issues/username/Test-Uni?style=for-the-badge)
+![License](https://img.shields.io/github/license/username/Test-Uni?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/username/Test-Uni?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellowgreen?style=for-the-badge)
 
 ---
 
-## Descrição do Projeto
+## Descrição
 
-**Test-Uni** é um repositório acadêmico dedicado a práticas e implementações de testes unitários em diferentes linguagens de programação e frameworks. O projeto tem como objetivo principal auxiliar desenvolvedores e estudantes a compreenderem a importância dos testes automatizados para garantia da qualidade do software, além de oferecer exemplos práticos e exercícios que fomentam o aprendizado contínuo.
+O **Test-Uni** é um repositório educacional e prático voltado para a implementação, estudo e aplicação de testes unitários em diferentes linguagens e frameworks, com foco em Python e Java. Criado para desenvolvedores que buscam compreender em profundidade a importância dos testes automatizados, o projeto fornece exemplos claros e exercícios que facilitam a integração de boas práticas para garantir a qualidade do software.
 
-Ao executar os testes unitários exemplificados neste projeto, o usuário poderá validar funcionalidades isoladas do código, facilitando a identificação precoce de falhas e assegurando maior robustez às soluções desenvolvidas.
-
-Este material foi idealizado para público iniciante a intermediário em testes automatizados, proporcionando um ambiente de aprendizado estruturado com foco no desenvolvimento de competências em qualidade de software.
-
-Diferenciais técnicos:
-- Exemplos simples e claros de testes unitários aplicados;
-- Abordagem multiplataforma com exemplos em linguagens e frameworks variados;
-- Organização didática dos conteúdos para facilitar a assimilação.
+Com uma estrutura organizada, o repositório visa auxiliar desde iniciantes até profissionais no aprimoramento do processo de validação de código, trazendo um contexto técnico que contempla padrões de testes, ferramentas modernas e frameworks consagrados.
 
 ---
 
 ## Funcionalidades
 
-- Exemplos de testes unitários aplicados a códigos variados;
-- Estruturação didática para auxiliar no aprendizado dos conceitos de teste;
-- Exemplos práticos de implementação de testes com foco em metodologias reconhecidas;
-- Exercícios e templates para facilitar a aplicação direta em projetos reais.
+- Exemplos práticos de testes unitários em linguagens como Python e Java.
+- Exercícios estruturados focados em estratégias de teste automático.
+- Utilização de frameworks como JUnit 5 para agilizar a escrita e execução dos testes em Java.
+- Demonstração de organização de projetos e testes em pastas específicas para facilitar o estudo e reaproveitamento.
+- Código referência para compreender conceitos como asserções, mocks e testes parametrizados.
+- Suporte para expansão com mais linguagens e frameworks futuramente.
 
 ---
 
 ## Tecnologias Utilizadas
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)  
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-- Linguagens: Java, Python (a analisar conforme os exemplos do repositório);
-- Frameworks de testes: JUnit 5 para Java, unittest ou pytest para Python (conforme disponibilidade);
-- IDE recomendada: Visual Studio Code.
+- **Linguagens:** Python, Java
+- **Frameworks:** JUnit 5 (Java)
+- **Ferramentas:** Visual Studio Code
+- **Padrões e Boas Práticas:** Test-Driven Development (TDD), Organização modular de código, Cobertura de testes
 
 ---
 
-## Estrutura de Diretórios
+## Estrutura do Projeto
 
-```plaintext
-Test-Uni/
-├── README.md                     # Documentação geral do projeto
+```
+/Test-Uni/
+├── README.md
 └── Teste-unit-rio-main/
-    └── TestUnitarioAV1/          # Diretório contendo exemplos principais de testes unitários para Avaliação 1
+    └── TestUnitarioAV1/
 ```
 
-- **Teste-unit-rio-main/**: Pasta raiz dos códigos e exemplos utilizados para a avaliação;
-- **TestUnitarioAV1/**: Contém os códigos-fonte, classes e testes relacionados à primeira avaliação prática sobre testes unitários, organizados para exemplificar a aplicação dos conceitos estudados.
+- **Teste-unit-rio-main/**: Diretório principal contendo os exemplos e exercícios de testes unitários.
+- **TestUnitarioAV1/**: Subpasta que provavelmente contém um conjunto específico de testes ou avaliações práticas (AV1) relacionadas ao conteúdo do curso ou treinamento.
 
 ---
 
 ## Instalação e Execução
 
-### Pré-requisitos
+Para clonar e explorar o projeto localmente, siga os passos abaixo:
 
-- Java JDK (versão 11 ou superior) instalado e configurado no PATH;
-- Python 3.x (caso haja exemplos em Python);
-- Gerenciador de pacotes (Maven, Gradle para Java) se aplicável;
-- IDE (Visual Studio Code recomendada) configurada com extensões para Java e Python;
-- Ferramentas de linha de comando para execução dos testes.
+```bash
+# Clonar o repositório
+git clone https://github.com/username/Test-Uni.git
 
-### Passos para execução
+# Acessar o diretório principal
+cd Test-Uni/Teste-unit-rio-main/TestUnitarioAV1/
+```
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/username/Test-Uni.git
-   cd Test-Uni/Teste-unit-rio-main/TestUnitarioAV1
-   ```
-2. Abra o diretório na sua IDE preferida para navegação e análise.
-3. Para executar testes Java com JUnit:
-   - Utilize sua IDE para rodar as classes de teste diretamente;
-   - Ou, via linha de comando, execute:
-     ```bash
-     ./gradlew test  # Caso um build.gradle esteja configurado
-     ```
-4. Para executar testes Python (se houver):
-   ```bash
-   python -m unittest discover
-   ```
-5. Analise os relatórios de testes gerados para validar a cobertura e funcionamento.
+Para execução e testes em Java, recomenda-se o uso do Maven ou Gradle, configurados conforme o projeto (não detectado um gerenciador neste repositório, incluir manualmente conforme necessidade).
+
+Para projetos em Python, utilize o terminal ou VS Code para executar os scripts e testes conforme exemplos disponibilizados.
 
 ---
 
 ## Endpoints
 
-_Não aplicável — este projeto não expõe APIs REST._
+Este projeto não possui APIs ou endpoints definidos.
 
 ---
 
 ## Testes
 
-- Os testes unitários são organizados para validar funcionalidades específicas e isoladas.
-- Estratégia utilizada: testes unitários isolados, focando em métodos e classes individuais para máxima granularidade.
-- Cobertura: recomendável gerar relatórios via ferramentas integradas ao framework utilizado (como Jacoco para Java).
-- Executar os testes conforme procedimento descrito na seção de Instalação e Execução.
+A estratégia de testes adotada concentra-se na utilização de frameworks consolidados para testes unitários, com foco na automação e boa cobertura do código. 
 
----
+- **Execução dos testes em Java:** com JUnit 5, bastando rodar as classes de teste integradas ao projeto.
+- **Execução dos testes em Python:** utilizar comandos como `python -m unittest` ou frameworks equivalentes conforme a estrutura da pasta.
 
-## Deploy
-
-_Não aplicável — projeto focado em exemplos e prática local de testes unitários._
+A cobertura e resultados podem ser analisados utilizando ferramentas integradas ao ambiente de desenvolvimento ou plugins específicos.
 
 ---
 
 ## Segurança
 
-- Este projeto aborda testes unitários e não possui componentes de autenticação, autorização ou exposições de rede.
-- Recomenda-se que, em projetos derivados, sejam inseridas validações e regras de segurança conforme apropriado.
+Por tratar-se de um conjunto de exemplos e práticas didáticas voltadas para testes unitários, não há implementação explícita de autenticação, autorização ou medidas de segurança no código base. Recomenda-se que, em projetos reais, a segurança seja implementada de forma adequada, com validações e proteções necessárias na camada de negócio.
+
+---
+
+## Deploy
+
+Este repositório é focado em exemplos de testes e não inclui artefatos para deploy. Para integração contínua e entrega, sugere-se a utilização de pipelines CI/CD com ferramentas como GitHub Actions, Jenkins ou outros conforme ambiente.
+
+Para Docker ou Cloud, o usuário deve criar containers ou ambientes específicos de acordo com a necessidade de execução dos testes.
 
 ---
 
 ## Melhorias Futuras
 
-- Inclusão de exemplos de testes unitários em outras linguagens como JavaScript (Jest) e C# (NUnit);
-- Adição de integração contínua (CI) para execução automática dos testes via GitHub Actions;
-- Implementação de métricas e análise de cobertura automatizada;
-- Inclusão de testes de integração e end-to-end para maior abrangência;
-- Documentação mais detalhada para cada exemplo de código e exercícios.
+- Adição de scripts e exemplos para outros frameworks de testes (ex: pytest para Python).
+- Inclusão de cobertura de testes automatizada e relatórios visuais.
+- Estruturação com gerenciadores de dependências como Maven/Gradle para Java e virtualenv/pipenv para Python.
+- Integração com ferramentas de CI/CD para execução automatizada dos testes.
+- Exemplos sobre testes de integração e testes funcionais para ampliar o escopo além do unitário.
+- Documentação ampliada com tutoriais passo a passo para iniciantes.
 
 ---
 
-## Contribuição
+## 👨‍💻 Autor
 
-Contribuições são bem-vindas para melhorar e expandir este repositório. Siga os passos abaixo:
-
-1. Faça um fork do projeto;
-2. Crie uma branch para sua feature: `git checkout -b feature/nome-da-feature`;
-3. Realize suas alterações e commit: `git commit -m "Descrição clara da feature"`;
-4. Envie para o seu repositório: `git push origin feature/nome-da-feature`;
-5. Abra um Pull Request detalhando as modificações implementadas.
-
-Por favor, mantenha a coerência no padrão de código e escrita clara na documentação.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-> Desenvolvido com foco na educação e aprimoramento das práticas de testes unitários para programadores e estudantes.
+Desenvolvido por **Hítalon Saimon Santos Silva**  
+GitHub: https://github.com/H-Saimon
